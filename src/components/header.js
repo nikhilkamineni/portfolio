@@ -1,6 +1,8 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import GithubImage from './github-image.js'
+import LinkedinLink from './linkedin-image.js'
 
 const Header = ({ siteTitle, siteDescription }) => (
   <div
@@ -21,6 +23,10 @@ const Header = ({ siteTitle, siteDescription }) => (
         {siteTitle}
       </Link>
       <h2 style={{ fontFamily: 'Lato, sans-serif' }}>{siteDescription}</h2>
+      <div class="Links">
+        <GithubImage />
+        <LinkedinLink />
+      </div>
     </h1>
   </div>
 )
