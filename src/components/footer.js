@@ -8,14 +8,10 @@ const Footer = ({ data }) => {
     <div
       style={{
         margin: `50px auto`,
-        padding: '20px 0',
         textAlign: 'center',
-        backgroundColor: '#1a1010',
-        borderRadius: '5px',
-        width: '190px',
       }}
     >
-      <div className="Links">
+      <div>
         <GithubLink />
         <LinkedinLink />
       </div>

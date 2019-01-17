@@ -655,3 +655,13 @@ a:hover {
   color: orange;
   text-decoration: underline;
 }
+
+.Footer__Link {
+  transition: background-color 0.3s;
+  width: 72px;
+}
+
+.Footer__Link:hover {
+  background-color: #1a1010;
+  border-radius: 5px;
+}

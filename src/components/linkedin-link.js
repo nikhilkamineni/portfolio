@@ -17,7 +17,9 @@ const LinkedinLink = props => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "linkedin/In-White-128px.png" }) {
+        placeholderImage: file(
+          relativePath: { eq: "linkedin/In-White-128px.png" }
+        ) {
           childImageSharp {
             fixed(width: 32, height: 32) {
               ...GatsbyImageSharpFixed
@@ -27,7 +29,11 @@ const LinkedinLink = props => (
       }
     `}
     render={data => (
-      <a href="https://www.linkedin.com/in/nikhilkamineni" style={{ padding: "0 20px" }}>
+      <a
+        href="https://www.linkedin.com/in/nikhilkamineni"
+        style={{ padding: '10px 30px' }}
+        className="Footer__Link"
+      >
         <Img fixed={data.placeholderImage.childImageSharp.fixed} />
       </a>
     )}

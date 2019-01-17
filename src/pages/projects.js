@@ -7,9 +7,15 @@ import SEO from '../components/seo'
 const Projects = () => (
   <Layout>
     <SEO title="projects" />
-    <h1>projects</h1>
-    <p>A list of my projects would go here</p>
-    <Link to="/">back</Link>
+    <h1 style={{ fontFamily: 'Lato, sans-serif', textDecoration: 'underline' }}>
+      projects
+    </h1>
+
+    <p style={{ marginBottom: '200px' }}>My projects would go here</p>
+
+    <Link to="/" style={{ fontSize: '28px', margin: '20px' }}>
+      back
+    </Link>
   </Layout>
 )
 

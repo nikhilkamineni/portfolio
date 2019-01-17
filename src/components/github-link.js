@@ -29,8 +29,12 @@ const GithubLink = props => (
       }
     `}
     render={data => (
-      <a href="https://github.com/nikhilkamineni" style={{ padding: "0 20px" }}>
-        <Img fixed={data.placeholderImage.childImageSharp.fixed} />
+      <a
+        href="https://github.com/nikhilkamineni"
+        style={{ padding: '10px 30px', height: '50px', width: '50px' }}
+        className="Footer__Link"
+      >
+        <Img fixed={data.placeholderImage.childImageSharp.fixed} style={{ height: '32px', width: '32px' }} />
       </a>
     )}
   />

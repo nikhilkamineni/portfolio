@@ -11,7 +11,7 @@ const IndexPage = () => (
       className="Nav"
       style={{
         display: 'flex',
-        justifyContent: 'space-evenly',
+        justifyContent: 'space-between',
         alignItems: 'center',
         width: '400px',
         height: '200px',
@@ -19,8 +19,12 @@ const IndexPage = () => (
         marginRight: 'auto',
       }}
     >
-      <Link to="/projects/" className="Nav__link">projects</Link>
-      <Link to="/about/" className="Nav__link">about</Link>
+      <Link to="/projects/" className="Nav__link">
+        projects
+      </Link>
+      <Link to="/about/" className="Nav__link">
+        about
+      </Link>
     </div>
   </Layout>
 )

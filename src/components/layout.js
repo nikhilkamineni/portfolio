@@ -20,13 +20,20 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} siteDescription={data.site.siteMetadata.description}/>
+        <Header
+          siteTitle={data.site.siteMetadata.title}
+          siteDescription={data.site.siteMetadata.description}
+        />
         <div
           style={{
             margin: `0 auto`,
             maxWidth: 960,
+            width: '80%',
             padding: `10px 1.0875rem 1.45rem`,
             textAlign: 'center',
+            verticalAlign: 'center',
+            backgroundColor: '#1a1010',
+            borderRadius: '5px',
           }}
         >
           {children}
