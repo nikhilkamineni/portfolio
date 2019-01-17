@@ -13,11 +13,13 @@ import Img from 'gatsby-image'
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-const LinkedinLink = props => (
+const GithubLink = props => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "linkedin/In-White-128px.png" }) {
+        placeholderImage: file(
+          relativePath: { eq: "GitHub-Mark-Light-120px-plus.png" }
+        ) {
           childImageSharp {
             fixed(width: 32, height: 32) {
               ...GatsbyImageSharpFixed
@@ -27,10 +29,10 @@ const LinkedinLink = props => (
       }
     `}
     render={data => (
-      <a href="https://www.linkedin.com/in/nikhilkamineni" style={{ padding: "20px" }}>
+      <a href="https://github.com/nikhilkamineni" style={{ padding: "0 20px" }}>
         <Img fixed={data.placeholderImage.childImageSharp.fixed} />
       </a>
     )}
   />
 )
-export default LinkedinLink
+export default GithubLink

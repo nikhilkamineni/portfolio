@@ -7,8 +7,21 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="home" keywords={[`gatsby`, `application`, `react`]} />
-    <Link to="/projects/">projects</Link>
-    <Link to="/about/">about</Link>
+    <div
+      className="Nav"
+      style={{
+        display: 'flex',
+        justifyContent: 'space-evenly',
+        alignItems: 'center',
+        width: '400px',
+        height: '200px',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+      }}
+    >
+      <Link to="/projects/" className="Nav__link">projects</Link>
+      <Link to="/about/" className="Nav__link">about</Link>
+    </div>
   </Layout>
 )
 

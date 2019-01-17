@@ -228,6 +228,8 @@ body {
   -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  display: flex;
+  flex-flow: column nowrap;
 }
 img {
   max-width: 100%;
@@ -639,4 +641,17 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
 }
