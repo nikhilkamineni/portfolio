@@ -11,7 +11,26 @@ const Projects = () => (
       projects
     </h1>
 
-    <p style={{ marginBottom: '200px' }}>My projects would go here</p>
+    <ul style={{ marginBottom: '100px', fontFamily: 'Palanquin, sans-serif' }}>
+      <li>
+        <h4>MapScratcher</h4>
+        <p>Repo:</p>
+        <p>Live link: </p>
+      </li>
+
+      <li>
+        <h4>{'{ codex }'}</h4>
+        <p>Repo:</p>
+        <p>Live link: </p>
+      </li>
+
+      <li>
+        <h4>nebulous_groove</h4>
+        <p>Repo:</p>
+        <p>Live link: </p>
+      </li>
+
+    </ul>
 
     <Link to="/" style={{ fontSize: '28px', margin: '20px' }}>
       back

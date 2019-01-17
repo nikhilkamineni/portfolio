@@ -1,6 +1,6 @@
 import React from 'react'
 
-import GithubLink from './github-link.js'
+import GithubProfileLink from './github-profile-link.js'
 import LinkedinLink from './linkedin-link.js'
 
 const Footer = ({ data }) => {
@@ -12,7 +12,7 @@ const Footer = ({ data }) => {
       }}
     >
       <div>
-        <GithubLink />
+        <GithubProfileLink url="https://github.com/nikhilkamineni"/>
         <LinkedinLink />
       </div>
     </div>
