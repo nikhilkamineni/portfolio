@@ -12,6 +12,7 @@ const About = () => (
         fontFamily: 'Lato, sans-serif',
         color: '#bb9900',
         textDecoration: 'underline',
+        marginBottom: '30px',
       }}
     >
       about

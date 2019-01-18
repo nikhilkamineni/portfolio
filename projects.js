@@ -2,7 +2,7 @@ module.exports = {
   MapScratcher: {
     name: 'MapScratcher',
     githubRepo: 'MapScratcher',
-    description: 'A virtual "scractch off" map',
+    description: 'A virtual "scratch off" map',
   },
   codex: {
     name: '{ codex }',

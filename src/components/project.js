@@ -6,22 +6,29 @@ const Project = props => (
   <li
     style={{
       display: 'flex',
+      flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      padding: '0',
-      margin: '0',
+      alignContent: 'center',
+      padding: '20px',
+      margin: '20px',
+      borderRadius: '5px',
+      width: '300px'
     }}
   >
-    <h4
-      style={{
-        padding: '0px 10px',
-        height: '20px',
-        fontWeight: 'normal',
-      }}
-    >
-      {props.name}
-    </h4>
-    <GithubLink repo={props.githubRepo} />
+    <div style={{ display: 'flex' }}>
+      <h4
+        style={{
+          padding: '10px 10px',
+          fontWeight: 'normal',
+          textDecoration: 'underline'
+        }}
+      >
+        {props.name}
+      </h4>
+      <GithubLink repo={props.githubRepo} />
+    </div>
+    <p>{props.description}</p>
   </li>
 )
 

@@ -6,7 +6,6 @@ import SEO from '../components/seo'
 
 import Project from '../components/project'
 import projects from '../../projects'
-import GithubLink from '../components/github-repo-link'
 
 const Projects = () => {
   return (
@@ -36,12 +35,12 @@ const Projects = () => {
             fontFamily: 'Palanquin, sans-serif',
             display: 'flex',
             flexDirection: 'column',
-            alignItems: 'flex-start',
+            alignItems: 'center',
             margin: '0 auto',
           }}
         >
           {Object.values(projects).map(project => (
-            <Project {...project} />
+            <Project {...project} key={project.name} />
           ))}
         </ul>
       </div>
