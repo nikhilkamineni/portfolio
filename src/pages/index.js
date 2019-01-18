@@ -11,9 +11,9 @@ const IndexPage = () => (
       className="Nav"
       style={{
         display: 'flex',
-        justifyContent: 'space-between',
+        justifyContent: 'space-evenly',
+        flexFlow: 'row wrap',
         alignItems: 'center',
-        width: '400px',
         height: '200px',
         marginLeft: 'auto',
         marginRight: 'auto',
