@@ -8,23 +8,22 @@ const Header = ({ siteTitle, siteDescription }) => (
       margin: `40px`,
       marginLeft: 'auto',
       marginRight: 'auto',
-      padding: '20px',
+      minWidth: '375px'
     }}
   >
     <h1 style={{ textAlign: 'center' }}>
       <Link
         to="/"
+        id="Header__title"
         style={{
-          fontSize: '4rem',
-          color: '#bb9900',
-          textDecoration: `none`,
+          fontSize: '3rem',
           fontFamily: '"Sirin Stencil", cursive',
         }}
       >
         {siteTitle}
       </Link>
     </h1>
-    <h2 style={{ fontFamily: 'Lato, sans-serif', textAlign: 'center' }}>
+    <h2 id="Header__description" style={{ fontFamily: 'Lato, sans-serif', textAlign: 'center' }}>
       {siteDescription}
     </h2>
   </div>
