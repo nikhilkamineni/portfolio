@@ -39,7 +39,7 @@ const Projects = () => {
             margin: '0 auto',
           }}
         >
-          {Object.values(projects).map(project => (
+          {projects.map(project => (
             <Project {...project} key={project.name} />
           ))}
         </ul>
