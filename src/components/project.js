@@ -13,19 +13,21 @@ const Project = props => (
       padding: '20px',
       margin: '20px',
       borderRadius: '5px',
-      width: '300px'
+      width: '300px',
     }}
   >
     <div style={{ display: 'flex' }}>
-      <h4
-        style={{
-          padding: '10px 10px',
-          fontWeight: 'normal',
-          textDecoration: 'underline'
-        }}
-      >
-        {props.name}
-      </h4>
+      <a href={props.deploymentLink} style={{ padding: '0', margin: '0' }}>
+        <h4
+          style={{
+            padding: '10px 10px',
+            fontWeight: 'normal',
+            textDecoration: 'underline',
+          }}
+        >
+          {props.name}
+        </h4>
+      </a>
       <GithubLink repo={props.githubRepo} />
     </div>
     <p>{props.description}</p>
