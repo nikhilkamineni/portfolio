@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "nikhilkamineni",
+  "alias": ["https://nikhilkamineni.now.sh"],
   "builds": [
     {
       "src": "package.json",
