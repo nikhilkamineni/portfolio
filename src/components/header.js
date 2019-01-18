@@ -6,7 +6,6 @@ const Header = ({ siteTitle, siteDescription }) => (
   <div
     style={{
       margin: `40px`,
-      width: '400px',
       marginLeft: 'auto',
       marginRight: 'auto',
       padding: '20px',
@@ -16,7 +15,7 @@ const Header = ({ siteTitle, siteDescription }) => (
       <Link
         to="/"
         style={{
-          fontSize: '50px',
+          fontSize: '4rem',
           color: '#bb9900',
           textDecoration: `none`,
           fontFamily: '"Sirin Stencil", cursive',
