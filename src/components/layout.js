@@ -26,13 +26,15 @@ const Layout = ({ children }) => (
         />
         <div
           style={{
-            margin: `0 auto`,
+            width: '80%',
             maxWidth: 960,
+            margin: `0 auto`,
             padding: `10px 1.0875rem 1.45rem`,
             textAlign: 'center',
             verticalAlign: 'center',
             backgroundColor: '#221b1b',
             borderRadius: '5px',
+            height: 'auto'
           }}
         >
           {children}

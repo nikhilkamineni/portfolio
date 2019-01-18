@@ -23,26 +23,17 @@ const Projects = () => {
       </h1>
 
       <div
+        className="projects-container"
         style={{
           display: 'flex',
+          flexFlow: 'row wrap',
           justifyContent: 'center',
           marginBottom: '30px',
         }}
       >
-        <ul
-          style={{
-            marginBottom: '100px',
-            fontFamily: 'Palanquin, sans-serif',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            margin: '0 auto',
-          }}
-        >
-          {projects.map(project => (
-            <Project {...project} key={project.name} />
-          ))}
-        </ul>
+        {projects.map(project => (
+          <Project {...project} key={project.name} />
+        ))}
       </div>
       <Link to="/" style={{ fontSize: '28px', margin: '20px' }}>
         back
