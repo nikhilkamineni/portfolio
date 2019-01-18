@@ -21,7 +21,7 @@ const GithubLink = props => (
           relativePath: { eq: "GitHub-Mark-Light-120px-plus.png" }
         ) {
           childImageSharp {
-            fixed(width: 32, height: 32) {
+            fixed(width: 20, height: 20) {
               ...GatsbyImageSharpFixed
             }
           }
@@ -30,11 +30,12 @@ const GithubLink = props => (
     `}
     render={data => (
       <a
-        href={props.url}
-        style={{ padding: '10px 30px', height: '50px', width: '50px' }}
-        className="Footer__Link"
+        href={`https://github.com/nikhilkamineni/${props.repo}`}
+        style={{ margin: '0', padding: '0' }}
       >
-        <Img fixed={data.placeholderImage.childImageSharp.fixed} style={{ height: '32px', width: '32px' }} />
+        <Img
+          fixed={data.placeholderImage.childImageSharp.fixed}
+        />
       </a>
     )}
   />

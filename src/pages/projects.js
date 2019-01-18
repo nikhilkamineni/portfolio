@@ -4,6 +4,8 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+import GithubLink from '../components/github-repo-link'
+
 const Projects = () => (
   <Layout>
     <SEO title="projects" />
@@ -12,24 +14,53 @@ const Projects = () => (
     </h1>
 
     <ul style={{ marginBottom: '100px', fontFamily: 'Palanquin, sans-serif' }}>
-      <li>
-        <h4>MapScratcher</h4>
-        <p>Repo:</p>
-        <p>Live link: </p>
+      <li
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '0',
+          margin: '0',
+          height: '60px',
+        }}
+      >
+        <h4 style={{ height: '40px', alignSelf: 'center', paddingTop: '30px', paddingRight: '10px' }}>
+          MapScratcher
+        </h4>
+        <GithubLink repo="MapScratcher" />
       </li>
 
-      <li>
-        <h4>{'{ codex }'}</h4>
-        <p>Repo:</p>
-        <p>Live link: </p>
+      <li
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '0',
+          margin: '0',
+          height: '60px',
+        }}
+      >
+        <h4 style={{ height: '40px', alignSelf: 'center', paddingTop: '30px', paddingRight: '10px'  }}>
+          {'{ codex }'}
+        </h4>
+        <GithubLink repo="codex" />
       </li>
 
-      <li>
-        <h4>nebulous_groove</h4>
-        <p>Repo:</p>
-        <p>Live link: </p>
+      <li
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '0',
+          margin: '0',
+          height: '60px',
+        }}
+      >
+        <h4 style={{ height: '40px', alignSelf: 'center', paddingTop: '30px', paddingRight: '10px'  }}>
+          nebulous_groove
+        </h4>
+        <GithubLink repo="nebulous-groove" />
       </li>
-
     </ul>
 
     <Link to="/" style={{ fontSize: '28px', margin: '20px' }}>
