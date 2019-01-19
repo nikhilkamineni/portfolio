@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "nikhilkamineni",
-  "alias": ["https://nikhilkamineni.now.sh"],
+  "alias": ["https://nikhilkamineni.now.sh", "nikhilkamineni.com"],
   "builds": [
     {
       "src": "package.json",

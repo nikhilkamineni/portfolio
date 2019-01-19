@@ -2,25 +2,25 @@ export default [
   {
     name: 'MapScratcher',
     githubRepo: 'MapScratcher',
-    description: 'A virtual "scratch off" map',
+    description: 'virtual "scratch off" map. features a custom world map built with Leaflet',
     deploymentLink: 'https://www.mapscratcher.app',
   },
   {
     name: '{ codex }',
     githubRepo: 'codex',
-    description: 'A rolodex from code snippets',
+    description: 'a rolodex from code snippets. features a built-in code editor with syntax highlighting and more',
     deploymentLink: 'https://codex-notes.herokuapp.com',
   },
   {
     name: 'nebulous_groove',
     githubRepo: 'nebulous-groove',
-    description: 'random groove generator built with the Web Audio API',
+    description: 'a random groove generator with step sequencer and effects. all sounds are synthesized in real-time using the Web Audio API',
     deploymentLink: 'https://nebulous-groove.now.sh',
   },
   {
     name: 'git-herd',
     githubRepo: 'git-herd',
-    description: 'simple command line to to clone multiple forks form different users',
+    description: 'super simple command line tool written in python. clones forked repos from multiple users',
     deploymentLink: 'https://github.com/nikhilkamineni/git-herd'
   }
 ]
