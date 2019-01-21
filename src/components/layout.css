@@ -671,9 +671,11 @@ a:hover {
 
 #Header__title {
   color: #bb9900;
+  padding: 0px 20px 30px 20px;
+  height: auto;
 }
 
 #Header__title:hover {
-  color: black;
+  background-color: #221b1b;
 }
 
