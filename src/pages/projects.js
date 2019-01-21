@@ -14,7 +14,7 @@ const Projects = () => {
       <h1
         style={{
           fontFamily: 'Lato, sans-serif',
-          textDecoration: 'underline',
+          fontWeight: '100',
           color: '#bb9900',
           marginBottom: '30px',
         }}

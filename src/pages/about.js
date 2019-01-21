@@ -10,8 +10,8 @@ const About = () => (
     <h1
       style={{
         fontFamily: 'Lato, sans-serif',
+        fontWeight: '100',
         color: '#bb9900',
-        textDecoration: 'underline',
         marginBottom: '30px',
       }}
     >
