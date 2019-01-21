@@ -20,7 +20,7 @@ const About = () => (
 
     <p
       className="About"
-      style={{ marginBottom: '100px', fontFamily: 'Palanquin, sans-serif' }}
+      style={{ marginBottom: '70px', fontFamily: 'Palanquin, sans-serif', padding: '0 40px' }}
     >
       I'm a software developer currently based in Portland, OR. Before getting
       into software development I studied music at Berklee College of Music,

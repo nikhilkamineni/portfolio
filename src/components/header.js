@@ -23,7 +23,7 @@ const Header = ({ siteTitle, siteDescription }) => (
         {siteTitle}
       </Link>
     </h1>
-    <h2 id="Header__description" style={{ fontFamily: 'Lato, sans-serif', textAlign: 'center' }}>
+    <h2 id="Header__description" style={{ fontFamily: 'Lato, sans-serif', textAlign: 'center', fontWeight: '100' }}>
       {siteDescription}
     </h2>
   </div>

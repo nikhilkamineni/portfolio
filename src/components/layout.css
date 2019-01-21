@@ -646,6 +646,7 @@ a {
   text-decoration: none;
   color: #bb9900;
   font-family: 'Lato', sans-serif;
+  font-weight: 100;
   font-size: 40px;
   border-radius: 5px;
   padding: 16px 18px 20px 18px;
@@ -675,3 +676,4 @@ a:hover {
 #Header__title:hover {
   color: black;
 }
+

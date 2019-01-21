@@ -40,7 +40,7 @@ const Project = props => (
 
       <GithubLink repo={props.githubRepo} />
     </div>
-    <p>{props.description}</p>
+    <p style={{ fontFamily: 'Palanquin, sans-serif' }}>{props.description}</p>
   </div>
 )
 
