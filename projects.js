@@ -28,6 +28,13 @@ export default [
     deploymentLink: 'https://nebulous-groove.now.sh',
   },
   {
+    name: 'push2-midi-controller',
+    githubRepo: 'push2-midi-controller',
+    description:
+    'max/msp patch that allows you to use Ableton\'s Push 2 controller as a generic MIDI controller with any software',
+    deploymentLink: 'https://github.com/nikhilkamineni/push2-midi-controller',
+  },
+  {
     name: 'git-herd',
     githubRepo: 'git-herd',
     description:
