@@ -4,12 +4,17 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const columnStyles = { width: '50%', display: 'flex', flexFlow: 'column nowrap', justifyContent: 'space-evenly'}
+const columnStyles = {
+  width: '50%',
+  display: 'flex',
+  flexFlow: 'column nowrap',
+  justifyContent: 'space-evenly',
+}
 
 const sectionStyles = {
   display: 'flex',
   flexFlow: 'column nowrap',
-  alignItems: 'center'
+  alignItems: 'center',
 }
 
 const Resume = () => (
@@ -34,18 +39,30 @@ const Resume = () => (
         <div style={sectionStyles}>
           <h2>education</h2>
           <ul>
-            <li>Lambda School - Full Stack Web, Computer Science</li>
-            <li>The New School - MA in Media Studies</li>
-            <li>Berklee College of Music - BM in Music</li>
+            <li>
+              <h3>Lambda School</h3> Full Stack Web, Computer Science
+            </li>
+            <li>
+              <h3>The New School</h3> MA in Media Studies
+            </li>
+            <li>
+              <h3>Berklee College of Music</h3> BM in Music
+            </li>
           </ul>
         </div>
 
         <div style={sectionStyles}>
           <h2>experience</h2>
           <ul>
-            <li>Lambda School - Teaching Assistant, Project Manager</li>
-            <li>Freelance  - Web Developer</li>
-            <li>Archaic Audio - Audio Engineer, Producer</li>
+            <li>
+              <h3>Lambda School</h3> Teaching Assistant, Project Manager
+            </li>
+            <li>
+              <h3>Freelance</h3> Web Developer
+            </li>
+            <li>
+              <h3>Archaic Audio</h3> Audio Engineer, Producer
+            </li>
           </ul>
         </div>
       </div>
