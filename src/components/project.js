@@ -2,7 +2,7 @@ import React from 'react'
 
 import GithubLink from './github-repo-link'
 
-const Project = props => (
+const Project = ({ deploymentLink, name, githubRepo, description }) => (
   <div
     className="project-card"
     style={{
@@ -24,23 +24,24 @@ const Project = props => (
     >
       <a
         className="project-link"
-        href={props.deploymentLink}
+        href={deploymentLink}
         style={{ padding: '0', margin: '0' }}
       >
         <h4
           style={{
             padding: '10px 10px',
             fontWeight: 'normal',
+            fontSize: '20px',
             textDecoration: 'underline',
           }}
         >
-          {props.name}
+          {name}
         </h4>
       </a>
 
-      <GithubLink repo={props.githubRepo} />
+      <GithubLink repo={githubRepo} />
     </div>
-    <p style={{ fontFamily: 'Palanquin, sans-serif' }}>{props.description}</p>
+    <p style={{ fontFamily: 'Palanquin, sans-serif' }}>{description}</p>
   </div>
 )
 

@@ -679,17 +679,23 @@ a:hover {
   background-color: #221b1b;
 }
 
-h2 {
+/* h2 { */
+/*   font-weight: 100; */
+/*   margin-bottom: 10px; */
+/* } */
+
+h3 {
   color: #bb9900;
   font-weight: 100;
   font-size: 20px;
   margin-bottom: 10px;
-
 }
 
-h3 {
+h4 {
   font-size: 15px;
+  font-weight: bold;
 }
+
 
 body {
   font-family: 'Palanquin', sans-serif;
@@ -701,6 +707,8 @@ ul {
 }
 
 li {
+  margin-top: 5px;
   font-size: 16px;
   list-style-type: none;
+  line-height: 1.2;
 }
