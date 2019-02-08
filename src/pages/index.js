@@ -22,8 +22,13 @@ const IndexPage = () => (
       <Link to="/projects/" className="Nav__link">
         projects
       </Link>
+
       <Link to="/about/" className="Nav__link">
         about
+      </Link>
+
+      <Link to="/resume/" className="Nav__link">
+        resume
       </Link>
     </div>
   </Layout>

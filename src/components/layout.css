@@ -679,3 +679,23 @@ a:hover {
   background-color: #221b1b;
 }
 
+h2 {
+  color: #bb9900;
+  font-weight: 100;
+  font-size: 20px;
+
+}
+
+body {
+  font-family: 'Palanquin', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  list-style-type: none;
+}
