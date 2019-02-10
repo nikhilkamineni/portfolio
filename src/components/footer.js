@@ -2,6 +2,7 @@ import React from 'react'
 
 import GithubProfileLink from './github-profile-link.js'
 import LinkedinLink from './linkedin-link.js'
+import EmailLink from './email-link.js'
 
 const Footer = ({ data }) => {
   return (
@@ -12,8 +13,9 @@ const Footer = ({ data }) => {
       }}
     >
       <div>
-        <GithubProfileLink url="https://github.com/nikhilkamineni"/>
         <LinkedinLink />
+        <GithubProfileLink />
+        <EmailLink />
       </div>
     </div>
   )

@@ -7,34 +7,30 @@ import SEO from '../components/seo'
 const About = () => (
   <Layout>
     <SEO title="about" />
-    <h1
-      style={{
-        fontFamily: 'Lato, sans-serif',
-        fontWeight: '100',
-        color: '#bb9900',
-        marginBottom: '30px',
-      }}
-    >
-      about
-    </h1>
 
-    <p
-      className="About"
-      style={{ marginBottom: '70px', fontFamily: 'Palanquin, sans-serif', padding: '0 40px' }}
-    >
-      I'm a software developer currently based in Portland, OR. Before getting
-      into software development I studied music at Berklee College of Music,
-      Media Studies at The New School and worked as and audio engineer an
-      producer in Brooklyn, NY. <br />
-      <br />
-      Programming and software development is my focus nowadays, but when i'm
-      not doing that i'm making strange noises with modular synthesizers,
-      building DIY audio equipment or enjoying all the wonderful things the
-      Pacific NW has to offer.
-    </p>
-    <Link to="/" style={{ fontSize: '28px', margin: '10px' }}>
-      back
-    </Link>
+    <div id="AboutContainer">
+      <h1 id="AboutContainer__header">about</h1>
+
+      <ul id="AboutContainer__content">
+        <li>Full stack software developer based in Portland, OR</li>
+        <li>
+          Current focus on web technologies, but loves learning new things
+        </li>
+        <li>Music/Audio engineering background</li>
+        <li>Full Stack Web and Computer Science from Lambda School</li>
+        <li>BM from Berklee College of Music</li>
+        <li>MA from The New School </li>
+        <li>Addicted to modular synthesizers and guitar pedals</li>
+        <li>
+          Enjoys building synth modules and audio equipment in his free time
+        </li>
+        <li>Loves being harrassed by his cats</li>
+      </ul>
+
+      <Link to="/" style={{ fontSize: '28px', margin: '10px', padding: '10px' }}>
+        back
+      </Link>
+    </div>
   </Layout>
 )
 

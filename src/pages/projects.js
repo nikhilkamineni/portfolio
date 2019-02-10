@@ -35,7 +35,10 @@ const Projects = () => {
           <Project {...project} key={project.name} />
         ))}
       </div>
-      <Link to="/" style={{ fontSize: '28px', margin: '20px' }}>
+      <Link
+        to="/"
+        style={{ fontSize: '28px', margin: '10px', padding: '10px' }}
+      >
         back
       </Link>
     </Layout>

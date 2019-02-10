@@ -712,3 +712,30 @@ li {
   list-style-type: none;
   line-height: 1.2;
 }
+
+#AboutContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#AboutContainer__header {
+  font-family: Lato, sans-serif;
+  font-weight: 100;
+  color: #bb9900;
+  margin-bottom: 30px;
+}
+
+#AboutContainer__content {
+  padding: 0 40px;
+  font-family: Palanquin, sans-serif;
+  margin-bottom: 20px;
+}
+
+#AboutContainer__content li {
+  list-style-type: circle;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}

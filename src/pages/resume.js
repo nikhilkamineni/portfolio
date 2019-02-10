@@ -45,21 +45,24 @@ const Education = () => (
 const Experience = () => (
   <div style={sectionStyles}>
     <h3>experience</h3>
+
     <ul>
       <li>
         <h4>Lambda School</h4>
         <div style={{ fontStyle: 'italic' }}>Jul 2018 - Nov 2018</div>
         <div>Teaching Assistant, Project Manager</div>
       </li>
-      <li>
-        <h4>Freelance</h4>
-        <div style={{ fontStyle: 'italic' }}>Aug 2012 - Dec 2014</div>
-        <div>Web Developer</div>
-      </li>
+
       <li>
         <h4>Archaic Audio</h4>
         <div style={{ fontStyle: 'italic' }}>Aug 2011 - Dec 2017</div>
         <div>Audio Engineer, Producer</div>
+      </li>
+
+      <li>
+        <h4>Freelance</h4>
+        <div style={{ fontStyle: 'italic' }}>Aug 2012 - Dec 2014</div>
+        <div>Web Developer</div>
       </li>
     </ul>
   </div>
@@ -121,7 +124,7 @@ const Resume = () => (
       </div>
     </div>
 
-    <Link to="/" style={{ fontSize: '28px', margin: '10px' }}>
+    <Link to="/" style={{ fontSize: '28px', margin: '10px', padding: '10px' }}>
       back
     </Link>
   </Layout>
